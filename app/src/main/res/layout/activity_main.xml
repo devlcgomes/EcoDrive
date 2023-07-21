@@ -13,24 +13,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:textColor="@color/gray_light"
-        android:hint="@string/txtDistance" />
+        android:hint="@string/txtDistance"
+        android:inputType="number"
+        android:textColor="@color/gray_light" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="2dp"
-        android:textColor="@color/gray_light"
         android:gravity="center"
-        android:text="@string/txtKilometers" />
+        android:text="@string/txtKilometers"
+        android:textColor="@color/gray_light" />
 
     <EditText
         android:id="@+id/editText_price"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:textColor="@color/gray_light"
-        android:hint="@string/txtPrice" />
+        android:hint="@string/txtPrice"
+        android:inputType="numberDecimal"
+        android:textColor="@color/gray_light" />
 
     <TextView
         android:layout_width="match_parent"
@@ -44,16 +46,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:textColor="@color/gray_light"
-        android:hint="@string/txtAutonomy" />
+        android:hint="@string/txtAutonomy"
+        android:inputType="numberDecimal"
+        android:textColor="@color/gray_light" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="2dp"
-        android:textColor="@color/gray_light"
         android:gravity="center"
-        android:text="@string/txtKmPerLt" />
+        android:text="@string/txtKmPerLt"
+        android:textColor="@color/gray_light" />
 
     <TextView
         android:layout_width="match_parent"
