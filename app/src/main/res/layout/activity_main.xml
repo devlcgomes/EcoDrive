@@ -5,58 +5,73 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/bg_app"
     android:padding="16dp"
     tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="left"
+        android:text="@string/txtKilometers"
+        android:textColor="@color/green_light" />
+
 
     <EditText
         android:id="@+id/editText_distance"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:hint="@string/txtDistance"
+        android:padding="18dp"
+        android:hint="@string/numberzero"
+        android:textColorHint="@color/gray_extralight"
+        android:background="@drawable/edittext_rounded_bg"
         android:inputType="number"
-        android:textColor="@color/gray_light" />
+        android:textColor="@color/white" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="2dp"
-        android:gravity="center"
-        android:text="@string/txtKilometers"
-        android:textColor="@color/gray_light" />
+        android:layout_marginTop="28dp"
+        android:gravity="left"
+        android:textColor="@color/green_light"
+        android:text="@string/txtPricePerLt" />
 
     <EditText
         android:id="@+id/editText_price"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:hint="@string/txtPrice"
+        android:layout_marginTop="8dp"
+        android:padding="18dp"
+        android:hint="@string/numberzero"
+        android:textColorHint="@color/gray_extralight"
         android:inputType="numberDecimal"
-        android:textColor="@color/gray_light" />
+        android:background="@drawable/edittext_rounded_bg"
+        android:textColor="@color/white" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="2dp"
-        android:gravity="center"
-        android:text="@string/txtPricePerLt" />
+        android:layout_marginTop="28dp"
+        android:gravity="left"
+        android:text="@string/txtKmPerLt"
+        android:textColor="@color/green_light" />
 
     <EditText
         android:id="@+id/editText_autonomy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:hint="@string/txtAutonomy"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edittext_rounded_bg"
+        android:hint="@string/numberzero"
+        android:textColorHint="@color/gray_extralight"
+        android:padding="18dp"
         android:inputType="numberDecimal"
-        android:textColor="@color/gray_light" />
+        android:textColor="@color/white"  />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="2dp"
-        android:gravity="center"
-        android:text="@string/txtKmPerLt"
-        android:textColor="@color/gray_light" />
+
 
     <TextView
         android:layout_width="match_parent"
@@ -64,8 +79,9 @@
         android:layout_marginTop="132dp"
         android:gravity="center"
         android:text="@string/txtTotalExpense"
-        android:textAllCaps="true"
-        android:textSize="20sp" />
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="23sp" />
 
     <TextView
         android:id="@+id/textField_totalExpense"
@@ -75,19 +91,22 @@
         android:gravity="center"
         android:text="@string/txtValue"
         android:textAllCaps="true"
-        android:textColor="@color/blueValue"
+        android:textColor="@color/green_light"
         android:textSize="38sp" />
 
     <Button
-        android:id="@+id/dbutton_calculate"
+        android:id="@+id/button_calculate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:backgroundTint="@color/teal_200"
+        android:backgroundTint="@color/green_light"
+        android:gravity="center"
         android:padding="14dp"
         android:text="@string/txtBtnCalculate"
         android:textAllCaps="true"
-        android:textSize="20sp" />
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
 
 </LinearLayout>

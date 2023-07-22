@@ -8,7 +8,9 @@
     <string name="txtKmPerLt">KMs por Litro</string>
     <string name="txtTotalExpense">Seu gasto total será de:</string>
     <string name="txtValue">R$ 0</string>
-    <string name="txtBtnCalculate">Calcular</string>
+    <string name="txtBtnCalculate">Calcular custo</string>
+    <string name="warningText">Preencha todos os campos!</string>
+    <string name="numberzero">0</string>
 
 
 </resources>
